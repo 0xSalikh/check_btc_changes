@@ -35,4 +35,5 @@ def check_changes_binance(sleep_time=3600):
 
 
 if __name__ == "__main__":
-    print(check_changes_binance(sleep_time=3600))
+    while True:
+        print(check_changes_binance(sleep_time=3600))
